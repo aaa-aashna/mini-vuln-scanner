@@ -283,12 +283,3 @@ Potential future improvements include:
 * improved result visualization
 * expanded test coverage
 
-## Responsible Use
-
-Only scan systems and networks that you own or have explicit permission to test.
-
-This project is intended for security education, authorized security testing, and experimentation.
-
-## License
-
-This project is licensed under the terms of the repository's license.
