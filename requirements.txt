@@ -1,0 +1,2 @@
+# Mini Vulnerability Scanner
+# Uses Python standard library only.

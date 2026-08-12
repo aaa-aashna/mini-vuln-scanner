@@ -1,48 +1,168 @@
 {
   "ftp": {
-    "vsftpd 2.3.4": "Backdoor vulnerability - CVE-2011-2523",
-    "ProFTPD 1.3.5": "Command injection vulnerability - CVE-2015-3306",
-    "Pure-FTPd 1.0.49": "Information disclosure vulnerability - CVE-2010-4344",
-    "FileZilla Server 0.9.41": "Directory traversal vulnerability - CVE-2010-1322"
+    "vsftpd 2.3.4": {
+      "cve": "CVE-2011-2523",
+      "severity": "CRITICAL",
+      "description": "Backdoor vulnerability"
+    },
+    "ProFTPD 1.3.5": {
+      "cve": "CVE-2015-3306",
+      "severity": "HIGH",
+      "description": "Command injection vulnerability"
+    },
+    "Pure-FTPd 1.0.49": {
+      "cve": "CVE-2010-4344",
+      "severity": "HIGH",
+      "description": "Information disclosure vulnerability"
+    },
+    "FileZilla Server 0.9.41": {
+      "cve": "CVE-2010-1322",
+      "severity": "HIGH",
+      "description": "Directory traversal vulnerability"
+    }
   },
+
   "http": {
-    "Apache 2.4.49": "Path traversal vulnerability - CVE-2021-41773",
-    "Apache 2.4.50": "Remote code execution vulnerability - CVE-2021-42013",
-    "Nginx 1.3.9": "Denial of service vulnerability - CVE-2013-2070",
-    "Microsoft IIS 7.5": "Request handling vulnerability - CVE-2010-3332",
-    "Lighttpd 1.4.28": "Buffer overflow vulnerability - CVE-2011-3166"
+    "Apache 2.4.49": {
+      "cve": "CVE-2021-41773",
+      "severity": "CRITICAL",
+      "description": "Path traversal vulnerability"
+    },
+    "Apache 2.4.50": {
+      "cve": "CVE-2021-42013",
+      "severity": "CRITICAL",
+      "description": "Remote code execution vulnerability"
+    },
+    "Nginx 1.3.9": {
+      "cve": "CVE-2013-2070",
+      "severity": "HIGH",
+      "description": "Denial of service vulnerability"
+    },
+    "Microsoft IIS 7.5": {
+      "cve": "CVE-2010-3332",
+      "severity": "HIGH",
+      "description": "Request handling vulnerability"
+    },
+    "Lighttpd 1.4.28": {
+      "cve": "CVE-2011-3166",
+      "severity": "HIGH",
+      "description": "Buffer overflow vulnerability"
+    }
   },
+
   "ssh": {
-    "OpenSSH 7.2": "User enumeration flaw - CVE-2016-6210",
-    "OpenSSH 6.6.1": "Buffer overflow vulnerability - CVE-2015-5352",
-    "Dropbear SSH 2016.74": "Authentication bypass vulnerability - CVE-2016-3116",
-    "Cisco SSH Server": "Cryptographic vulnerability - CVE-2018-15473"
+    "OpenSSH 7.2": {
+      "cve": "CVE-2016-6210",
+      "severity": "MEDIUM",
+      "description": "User enumeration flaw"
+    },
+    "OpenSSH 6.6.1": {
+      "cve": "CVE-2015-5352",
+      "severity": "HIGH",
+      "description": "Buffer overflow vulnerability"
+    },
+    "Dropbear SSH 2016.74": {
+      "cve": "CVE-2016-3116",
+      "severity": "HIGH",
+      "description": "Authentication bypass vulnerability"
+    },
+    "Cisco SSH Server": {
+      "cve": "CVE-2018-15473",
+      "severity": "MEDIUM",
+      "description": "Username enumeration vulnerability"
+    }
   },
+
   "smtp": {
-    "Exim 4.87": "Remote code execution - CVE-2016-9963",
-    "Postfix 2.9.6": "STARTTLS command injection - CVE-2011-0411",
-    "Sendmail 8.14": "Heap overflow vulnerability - CVE-2003-0352"
+    "Exim 4.87": {
+      "cve": "CVE-2016-9963",
+      "severity": "HIGH",
+      "description": "Remote code execution vulnerability"
+    },
+    "Postfix 2.9.6": {
+      "cve": "CVE-2011-0411",
+      "severity": "HIGH",
+      "description": "STARTTLS command injection vulnerability"
+    },
+    "Sendmail 8.14": {
+      "cve": "CVE-2003-0352",
+      "severity": "HIGH",
+      "description": "Heap overflow vulnerability"
+    }
   },
+
   "dns": {
-    "BIND 9.9.7": "Remote DoS via TKEY query - CVE-2015-5477",
-    "BIND 9.8.0": "Cache poisoning vulnerability - CVE-2012-1033",
-    "Knot DNS 2.0.0": "Information leak vulnerability - CVE-2019-6460"
+    "BIND 9.9.7": {
+      "cve": "CVE-2015-5477",
+      "severity": "HIGH",
+      "description": "Remote denial of service vulnerability"
+    },
+    "BIND 9.8.0": {
+      "cve": "CVE-2012-1033",
+      "severity": "MEDIUM",
+      "description": "Cache poisoning vulnerability"
+    },
+    "Knot DNS 2.0.0": {
+      "cve": "CVE-2019-6460",
+      "severity": "HIGH",
+      "description": "Information leak vulnerability"
+    }
   },
+
   "mysql": {
-    "MySQL 5.5.45": "Privilege escalation vulnerability - CVE-2015-3152",
-    "MySQL 5.7.17": "Root account bypass - CVE-2016-6663",
-    "MariaDB 10.1.29": "Authentication bypass - CVE-2017-3142"
+    "MySQL 5.5.45": {
+      "cve": "CVE-2015-3152",
+      "severity": "HIGH",
+      "description": "Privilege escalation vulnerability"
+    },
+    "MySQL 5.7.17": {
+      "cve": "CVE-2016-6663",
+      "severity": "CRITICAL",
+      "description": "Root account bypass vulnerability"
+    },
+    "MariaDB 10.1.29": {
+      "cve": "CVE-2017-3142",
+      "severity": "HIGH",
+      "description": "Authentication bypass vulnerability"
+    }
   },
+
   "telnet": {
-    "Telnet 1.2": "Authentication bypass via buffer overflow - CVE-2001-0554",
-    "Solaris Telnet": "Denial of service vulnerability - CVE-2010-1835"
+    "Telnet 1.2": {
+      "cve": "CVE-2001-0554",
+      "severity": "HIGH",
+      "description": "Authentication bypass via buffer overflow"
+    },
+    "Solaris Telnet": {
+      "cve": "CVE-2010-1835",
+      "severity": "HIGH",
+      "description": "Denial of service vulnerability"
+    }
   },
+
   "database": {
-    "MongoDB 3.6": "No authentication by default - CVE-2019-6465",
-    "PostgreSQL 9.3": "Privilege escalation - CVE-2014-0062"
+    "MongoDB 3.6": {
+      "cve": "CVE-2019-6465",
+      "severity": "MEDIUM",
+      "description": "No authentication by default"
+    },
+    "PostgreSQL 9.3": {
+      "cve": "CVE-2014-0062",
+      "severity": "HIGH",
+      "description": "Privilege escalation vulnerability"
+    }
   },
+
   "vpn": {
-    "OpenVPN 2.3.10": "Use-after-free vulnerability - CVE-2017-7521",
-    "Cisco ASA VPN": "Buffer overflow - CVE-2018-0101"
+    "OpenVPN 2.3.10": {
+      "cve": "CVE-2017-7521",
+      "severity": "HIGH",
+      "description": "Use-after-free vulnerability"
+    },
+    "Cisco ASA VPN": {
+      "cve": "CVE-2018-0101",
+      "severity": "CRITICAL",
+      "description": "Buffer overflow vulnerability"
+    }
   }
 }
