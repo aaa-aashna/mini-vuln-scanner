@@ -258,28 +258,5 @@ The tests cover:
 
 The test suite does not require scanning external systems.
 
-## Limitations
 
-This project is an educational and experimental security scanning tool and is not intended to replace mature vulnerability assessment platforms.
-
-Current limitations include:
-
-* Service identification primarily relies on known ports and banners.
-* Some services may not expose a readable banner.
-* Vulnerability matching depends on the local vulnerability database.
-* Version-based matching can produce incomplete results when software does not disclose its version.
-* The scanner does not perform exploit execution or active vulnerability verification.
-* The vulnerability database is manually maintained.
-
-## Future Improvements
-
-Potential future improvements include:
-
-* richer vulnerability data sources
-* improved service fingerprinting
-* additional protocol-specific checks
-* additional report formats
-* automated vulnerability database updates
-* improved result visualization
-* expanded test coverage
 
